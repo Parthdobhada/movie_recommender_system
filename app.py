@@ -19,7 +19,7 @@ body {
 """, unsafe_allow_html=True)
 
 # OMDb API Key
-API_KEY = "c006e720"
+API_KEY = st.secrets["c006e720"]
 
 
 # Fetch Movie Details
@@ -108,7 +108,10 @@ def recommend(movie):
 movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+import gzip
+
+with gzip.open('similarity_compressed.pkl.gz', 'rb') as f:
+    similarity = pickle.load(f)
 
 
 # UI
