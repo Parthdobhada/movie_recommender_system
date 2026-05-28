@@ -19,8 +19,7 @@ body {
 """, unsafe_allow_html=True)
 
 # OMDb API Key
-API_KEY = st.secrets["c006e720"]
-
+API_KEY = st.secrets["API_KEY"]
 
 # Fetch Movie Details
 @st.cache_data
