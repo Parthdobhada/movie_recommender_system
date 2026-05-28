@@ -91,11 +91,7 @@ The system uses **Content-Based Filtering** with **Cosine Similarity** to recomm
 ### Movie Recommendations
 
 ![Recommendations](screenshots/Movie_recommendations.png)
----
 
-### User Interface
-
-![UI](screenshots/ui.png)
 
 ## 👨‍💻 Author
 
