@@ -84,7 +84,7 @@ The system uses **Content-Based Filtering** with **Cosine Similarity** to recomm
 
 ### Home Page
 
-![Home Page](screenshots/Homepage.png)
+![Home Page](screenshots/Homepage(2).png)
 
 ---
 
