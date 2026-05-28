@@ -84,13 +84,13 @@ The system uses **Content-Based Filtering** with **Cosine Similarity** to recomm
 
 ### Home Page
 
-![Home Page](screenshots/homepage.png)
+![Home Page](Screenshots/homepage.png)
 
 ---
 
 ### Movie Recommendations
 
-![Recommendations](screenshots/recommendations.png)
+![Recommendations](Screenshots/recommendations.png)
 
 
 ## 👨‍💻 Author
